@@ -1,0 +1,5 @@
+# Core dependencies
+opencv-contrib-python>=4.5.0  # For image processing and dnn_superres module
+numpy>=1.19.0               # For numerical operations
+pillow>=8.0.0               # For image handling
+tifffile>=2020.9.3          # For handling TIFF files 
