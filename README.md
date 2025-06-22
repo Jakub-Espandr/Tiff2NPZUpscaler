@@ -14,7 +14,7 @@ This application processes TIFF depth images by upscaling them and converting th
 
 ```bash
 # Clone the repository
-git clone https://github.com/Jakub-Espandr/tiff2npz-upscaler.git
+git clone https://github.com/Jakub-Espandr/Tiff2NPZUpscaler.git
 # Move to the directory
 cd tiff2npz-upscaler
 # Install dependencies
@@ -87,7 +87,7 @@ The NPZ files contain structured data compatible with depth-based machine learni
 
 ## Sample Data
 
-Sample data is available in the `Test` folder. These data can be visualized using the Depth Image Viewer available in the Tools section of the [disaster-sim-coppeliasim repository](https://github.com/Jakub-Espandr/disaster-sim-coppeliasim).
+Sample data is available in the `Test` folder. These data can be visualized using the Depth Image Viewer available in the Tools section of the [DisasterSimCoppeliaSim repository](https://github.com/Jakub-Espandr/DisasterSimCoppeliaSim).
 
 ## Notes
 
@@ -99,3 +99,11 @@ Sample data is available in the `Test` folder. These data can be visualized usin
 ## Data Source
 
 The TIFF depth images used in this application are captured using the [LiDAR Depth Map Capture for iOS](https://github.com/ioridev/LiDAR-Depth-Map-Capture-for-iOS) app. This app allows for capturing full-resolution, 32-bit floating-point depth maps using the LiDAR scanner on supported iPhone and iPad models. The depth maps preserve the original precision, making them suitable for high-quality upscaling and conversion processes.
+
+## License
+
+
+This project is licensed under the **Non-Commercial Public License (NCPL v1.0)**  
+© 2025 Jakub Ešpandr - Born4Flight, FlyCamCzech
+
+See the [LICENSE](https://github.com/Jakub-Espandr/Tiff2NPZUpscaler/raw/main/LICENSE) file for full terms.
