@@ -15,14 +15,17 @@ This application processes TIFF depth images by upscaling them and converting th
 ```bash
 # Clone the repository
 git clone https://github.com/Jakub-Espandr/Tiff2NPZUpscaler.git
-# Move to the directory
-cd tiff2npz-upscaler
-# Install dependencies
+cd Tiff2NPZUpscaler
+
+# Install required packages
 pip install -r requirements.txt
+
 # Run the GUI application
 python upscale2npz_gui.py
-# Run the terminal application
+
+# (Optional) Run the terminal version
 python upscale2npz.py
+
 ```
 
 ## Usage
